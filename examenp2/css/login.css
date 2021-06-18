@@ -1,0 +1,35 @@
+body {
+    margin: auto;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login {
+    border: solid 2px black;
+    height: 500px;
+    width: 800px;
+    /* border-radius: 20px; */
+    /*     justify-content: center;
+    align-items: center; */
+    box-sizing: border-box;
+    min-width: 800px;
+}
+#dubai{
+    width: 76.3%;
+    height: calc(100% - 0px);
+    object-fit: contain;
+}
+#usuario {
+    width: 80%;
+    height: calc(100% - 0px);
+    object-fit: contain;
+    border:solid 2px black;
+    border-radius: 100%;
+}
+#derecha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

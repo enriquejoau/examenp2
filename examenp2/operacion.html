@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raiz</title>
+    <link rel="stylesheet" href="css/persona.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h1><i class="fa fa-cube" aria-hidden="true"></i>Operacion</h1>
+    </header>
+    <div id="sidebar-container" class="bg-primary">
+        <div class="logo">
+            <h4 class="text-light font-weight-bold"><i class="fas fa-user-cog"></i> Home</h4>
+        </div>
+        <div class="menu">
+            <a href="home.html" class="d-block text-light p-3"><i class="fas fa-home"></i>  Home</a>
+            <a href="persona.html" class="d-block text-light p-3"><i class="fas fa-user-cog"></i>  Persona</a>
+            <a href="operacion.html" class="d-block text-light p-3"><i class="fas fa-cogs"></i>  Operacion</a>
+            <a href="ejemplos.html" class="d-block text-light p-3"><i class="fas fa-stream"></i>  Ejemplos</a>
+            <a href="login.html" class="d-block text-light p-3"><i class="fas fa-sign-out-alt"></i>  Regresar al Login</a>
+        </div>
+    </div>
+    <form role="form" style="border: 1px solid black;">
+        <div class="form-group">
+            <input type="number" name="Numero" id="numero" class="form-control input-sm"
+                placeholder="numero">
+        </div>
+        <div class="form-group">
+            <input type="number" name="numero2" id="numero2" class="form-control input-sm"
+                placeholder="Resultado">
+        </div>
+        <input onclick="raiz()" id="calcular" value="calcular" type="button" class="btn btn-info btn-block">
+
+    </form>
+    <script src="js/jquery.js"></script>
+    <script src="js/raiz.js"></script>
+
+</body>
+</html>
